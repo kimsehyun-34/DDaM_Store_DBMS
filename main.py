@@ -7,7 +7,7 @@ def get_connection():
     try:
         conn = cx_Oracle.connect(
             user="김세현",  # Oracle DB 사용자 이름
-            password="2004",  # 비밀번호
+            password="비밀번호",  # 개인적으로 문의하면 비밀번호 알려드리겠습니다
             dsn="iedb.kangwon.ac.kr"  # 호스트 및 서비스 이름
         )
         return conn
